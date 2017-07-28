@@ -26,10 +26,7 @@ command (where $AWS_REGION is the region that you wish to deploy to).
 serverless deploy --stage production --region $AWS_REGION
 ```
 
-Once this command has complete, you will then be able to feed the url created by the serverless cli command into a SNS
-subscription.
-
-For more information, please view the articles listed in the acknowledgments section. 
+Once this command has complete, you will then need to create an SNS subscription that feeds through to this lambda.
  
 ## Acknowledgements
 Most of this code was taken from an excellent article by [Matthew Cooper](http://matthewcooper.net/) and can be found 

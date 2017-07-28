@@ -1,5 +1,6 @@
 export default ((event, context) => {
   console.log(event);
+  console.log(event.Sns);
   console.log(event[0].Sns);
 
   var color = 'warning';
