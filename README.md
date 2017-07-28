@@ -10,7 +10,7 @@ To install the package on your local machine you will need to run,
 npm install
 ```
 
-You will then need to create an environment file with the last part of your slack hook in,
+You will then need to create an environment file (`env.json`) with the last part of your slack hook in,
 
 ```json
 {
