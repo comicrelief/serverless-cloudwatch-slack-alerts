@@ -2,7 +2,7 @@ var http = require ('https');
 var querystring = require ('querystring');
 
 export default ((event, context) => {
-  var message = event.Records[0].Sns.Message;
+  var message = JSON.parse(event.Records[0].Sns.Message);
 
   var color = 'warning';
   switch(message.NewStateValue) {
