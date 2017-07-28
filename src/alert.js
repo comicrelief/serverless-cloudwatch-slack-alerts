@@ -15,7 +15,7 @@ export default ((event, context) => {
   }
 
   var payloadStr = JSON.stringify({
-    "username": "Cloudwatch",
+    "username": "AWS Serverless",
     "attachments": [
       {
         "title": message.AlarmName,
