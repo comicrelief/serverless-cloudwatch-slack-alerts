@@ -1,0 +1,53 @@
+{
+  "name": "serverless-cloudwatch-slack-alerts",
+  "version": "0.0.1",
+  "description": "This is a serverless package to stream cloudwatch alerts to slack.",
+  "main": "index.js",
+  "scripts": {
+    "unit-test": "./node_modules/.bin/jest",
+    "feature-test": "./node_modules/.bin/mocha \"tests/feature/**/*.feature.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:comicrelief/serverless-cloudwatch-slack-alerts.gitt"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "keywords": [
+    "Serverless",
+    "Comic Relief",
+    "AWS",
+    "Lambda"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comicrelief/serverless-cloudwatch-slack-alerts/issues"
+  },
+  "author": "Adam Clark",
+  "homepage": "https://github.com/comicrelief/serverless-cloudwatch-slack-alerts",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-polyfill": "6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "6.16.0",
+    "json-loader": "^0.5.4",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "serverless-offline": "^3.14.0",
+    "serverless-webpack": "1.0.0-rc.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "1.13.2",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "https": "^1.0.0",
+    "querystring": "^0.2.0"
+  }
+}
