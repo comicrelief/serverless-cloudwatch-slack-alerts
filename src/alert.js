@@ -36,7 +36,7 @@ export default ((event, context) => {
         "color": color
       }
     ],
-    "icon_emoji": ":cloudwatch:"
+    "icon_emoji": ":aws:"
   });
 
   var postData = querystring.stringify({
