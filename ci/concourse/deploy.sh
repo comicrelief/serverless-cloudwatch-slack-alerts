@@ -6,7 +6,7 @@ npm install
 
 # Generate environment file base on params
 echo "Generating environment file"
-echo '{"LOGGLY_TOKEN" : "'$LOGGLY_TOKEN'", "LOGGLY_SUBDOMAIN" : "'$LOGGLY_SUBDOMAIN'", "ELASTICSEARCH_ENDPOINT" : "'$ELASTICSEARCH_ENDPOINT'", "CUBS_URL" : "'$CUBS_URL'", "CUBS_USERNAME" : "'$CUBS_USERNAME'", "CUBS_SALT" : "'$CUBS_SALT'", "CUBS_SECURITY_KEY" : "'$CUBS_SECURITY_KEY'"}' > ./env.json
+echo '{"SLACK_WEB_HOOK" : "'$SLACK_WEB_HOOK'"}' > ./env.json
 
 # Deploy to AWS
 echo "Deploying to AWS"

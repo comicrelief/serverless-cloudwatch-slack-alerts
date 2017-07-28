@@ -6,7 +6,7 @@ image_resource:
   source: {repository: comicrelief/node-sls, tag: "latest"}
 
 inputs:
-  - name: serverless-odi-api
+  - name: serverless-cloudwatch-slack-alerts
     path: repo
 
 run:
