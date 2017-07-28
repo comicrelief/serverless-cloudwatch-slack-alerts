@@ -1,6 +1,7 @@
 export default ((event, context) => {
-  console.log(event.Sns);
-  var message = JSON.parse(event.Message);
+  var message = JSON.parse(event);
+  console.log(event);
+  console.log(event.SNS);
 
   var color = 'warning';
   switch(message.NewStateValue) {
