@@ -1,5 +1,5 @@
 export default ((event, context) => {
-  console.log(event);
+  console.log(event.Sns);
   var message = JSON.parse(event.Message);
 
   var color = 'warning';
