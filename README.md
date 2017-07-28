@@ -1,4 +1,4 @@
-# Serverless Slack Alerts
+# Serverless SNS Slack Alerts
 > This package streams errors and warnings from [CloudWatch](https://aws.amazon.com/cloudwatch/) to a slack channel via 
 a [lamba](https://aws.amazon.com/lambda/) (using [Serverless](https://serverless.com/) framework.
  
