@@ -1,6 +1,5 @@
 export default ((event, context) => {
-  console.log(event);
-  console.log(event.Records[0].Sns);
+  var message = event.Records[0].Sns.Message;
 
   var color = 'warning';
   switch(message.NewStateValue) {
