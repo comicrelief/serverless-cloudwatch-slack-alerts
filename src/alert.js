@@ -1,5 +1,4 @@
 export default ((event, context) => {
-  var message = JSON.parse(event);
   console.log(event);
   console.log(event.SNS);
 
