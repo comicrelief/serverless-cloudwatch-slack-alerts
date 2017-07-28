@@ -1,6 +1,6 @@
 export default ((event, context) => {
   console.log(event);
-  console.log(event[0].SNS);
+  console.log(event[0].Sns);
 
   var color = 'warning';
   switch(message.NewStateValue) {
